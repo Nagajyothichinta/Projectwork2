@@ -1,5 +1,5 @@
 ## Title of the Project
-OSIC Pulmonary Fibrosis Progression
+## OSIC Pulmonary Fibrosis Progression
 ## About
 
 Pulmonary fibrosis exists as a continuous deteriorating lung disorder that causes lung tissue scarring (fibrosis) which gradually reduces respiratory capacity throughout time.
@@ -11,12 +11,24 @@ As a result, CT scans are very expensive, time-consuming, and perhaps hazardous 
 The artificial neural network type known as autoencoder performs unsupervised learning to accomplish dimensionality reduction together with feature extraction and data reconstruction tasks. The autoencoder employs an encoder phase that reduces input data into a condensed latent space and a decoder mechanism that regenerates the initial input from this compressed format. The widespread usage of autoencoders occurs in data processing applications which manage high-dimensional data efficiently including medical imaging together with anomaly detection and noise reduction operations. 
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+## Neural Network Architecture:
+The model is a combination of convolutional autoencoders (for CT scans) and a dense autoencoder (for clinical data), followed by a fusion network for final prediction.
+## Image-Based Autoencoder (for CT Scans):
+- Uses CNN-based autoencoder to extract lung fibrosis features from HRCT scans.
+- The encoder compresses the high-dimensional image into a smaller latent space.
+- The decoder reconstructs the original image (used only during training).
+## Autoencoder Architecture: 
+Autoencoder Architecture serves as the fundamental element in the method because it uses neural networks for building unsupervised learning systems. 
+The system combines an encoder which transforms the input data into latent space with fewer dimensions followed by a decoder to rebuild original input data from the compressed data. 
+The autoencoder develops representations for pulmonary fibrosis features through clinical measurements as well as lung function data points that highlight relevant disease patterns.
+## Convolutional Autoencoders (CAE):
+Convolutional Autoencoders (CAE) represent an excellent option because they extract spatial patterns better than fully connected layers specifically for imaging data including CT scans.
+## Variational Autoencoders (VAE):
+Considerable data distribution modeling along with better latent representation smoothing can emerge from the addition of probabilistic layers in Variational Autoencoders (VAE) that helps enhance prediction accuracy.
+
+Dimensionality Reduction – Compressing high-dimensional CT scan data into meaningful latent representations.
+Feature Extraction – Learning hidden patterns in structured data (e.g., FVC trends, demographic features).
+Anomaly Detection – Identifying abnormal lung patterns that indicate severe fibrosis progression.
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
@@ -31,7 +43,8 @@ The artificial neural network type known as autoencoder performs unsupervised le
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<img width="97" alt="image" src="https://github.com/user-attachments/assets/de7af4db-72c3-4338-995d-ad40d3a2ca85" />
+
 
 
 ## Output
