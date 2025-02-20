@@ -43,7 +43,8 @@ Anomaly Detection – Identifying abnormal lung patterns that indicate severe fi
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-<img width="97" alt="image" src="https://github.com/user-attachments/assets/de7af4db-72c3-4338-995d-ad40d3a2ca85" />
+<img width="142" alt="image" src="https://github.com/user-attachments/assets/0566dcb0-f252-4d00-8e34-11d7986fbd8e" />
+
 
 
 
