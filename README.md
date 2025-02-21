@@ -43,7 +43,7 @@ Anomaly Detection – Identifying abnormal lung patterns that indicate severe fi
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-<img width="142" alt="image" src="https://github.com/user-attachments/assets/0566dcb0-f252-4d00-8e34-11d7986fbd8e" />
+![image](https://github.com/user-attachments/assets/b17a81bc-66e0-49d9-bc22-108f54d38bb1)
 
 
 
@@ -51,26 +51,32 @@ Anomaly Detection – Identifying abnormal lung patterns that indicate severe fi
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Lung CT Scan Segmentation
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![image](https://github.com/user-attachments/assets/fb444ad7-1718-4501-a4e1-12f21ae13244)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+#### Output2 - Lung Region Extraction from CT Scan
+![image](https://github.com/user-attachments/assets/1fe51932-fe60-4832-94f7-d1dccf91d4ec)
+
+#### Output3 - Pixel Area of CT Scan per Patient
+![image](https://github.com/user-attachments/assets/aaedc6a5-095e-4428-95de-2507e779e0a5)
+
 
 Detection Accuracy: 96.7%
 Note: These metrics can be customized based on your actual performance evaluations.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The prediction of pulmonary fibrosis progression becomes possible through autoencoders because they successfully extract pertinent features from CT images. Medical diagnostics benefit from their functionality of handling high-dimensional medical data and anomaly detection with limited available datasets although they still rely on human experts. Female airforce personnel benefits from ongoing deep learning and computational medicine research because autoencoders position themselves as key players for better pulmonary fibrosis prediction which leads to improved patient treatment options and management methods.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+Future development of OSIC pulmonary fibrosis prediction using autoencoders holds great promise thanks to potential implementations of multi-modal integration together with advanced deep learning architectures along with explainable AI methods and edge computing and federated learning algorithms and clinical trial tests. The maturation of these technologies will serve as a vital instrument in pulmonary fibrosis diagnosis improvements which will produce personalized treatment strategies for patient care.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1.	Raghu, G., Remy-Jardin, M., Myers, J. L., et al. (2018). Diagnosis of Idiopathic Pulmonary Fibrosis: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline. American Journal of Respiratory and Critical Care Medicine, 198(5), e44–e68. DOI: 10.1164/rccm.201807-1255ST
+2.	Xu, Y., Jia, Z., Ai, Y., Zhang, F., et al. (2019). Variational Autoencoder for Semi-supervised Learning of Lung Disease Prediction. IEEE Transactions on Medical Imaging, 39(4), 1180–1192. DOI: 10.1109/TMI.2019.2957852
+3.	Litjens, G., Kooi, T., Bejnordi, B. E., Setio, A. A. A., et al. (2017). A Survey on Deep Learning in Medical Image Analysis. Medical Image Analysis, 42, 60–88. DOI: 10.1016/j.media.2017.07.005
+4.	Baltruschat, I. M., Nickisch, H., Grass, M., et al. (2019). Comparison of Deep Learning Approaches for Multi-label Chest X-ray Classification. Scientific Reports, 9(1), 6381. DOI: 10.1038/s41598-019-42294-8
+
 
 
 
